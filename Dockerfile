@@ -8,6 +8,6 @@ COPY ./site /var/www/capyfriends/
 RUN chown -R www-data:www-data /var/www/capyfriends
 COPY ./capyfriends.conf /etc/apache2/sites-available/capyfriends.conf
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
-RUN  a2dissite 000-default.conf && a2ensite moncv.conf && a2enmod rewrite
+RUN  a2dissite 000-default.conf && a2ensite capyfriends.conf && a2enmod rewrite
 EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]

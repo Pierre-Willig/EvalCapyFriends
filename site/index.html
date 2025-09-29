@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de l'association des Sauveurs de Capybaras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <meta name="description" content="Le site officiel de l'association des sauveurs de capybaras">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="grey lighten-2">
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper red darken-2">
+                    <a href="./index.html" class="brand-logo">
+                    <img src="./images/favicon.png" alt="CapyFriends Logo"class="h-8 w-auto rounded-full"/>
+                    <span class="text-white font-bold text-xl">CapyFriends</span>
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="activite.html">Activités</a></li>
+                            <li><a href="actualite.html">Actualité</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                </div>
+            </nav>  
+        </div>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="activite.html">Activités</a></li>
+                <li><a href="actualite.html">Actualité</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </header>
+
+    <main>
+        <section class="container grey lighten-3">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center-align black-text">CapyFriends</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l8 offset-l2 s10 offset-s1">
+                    <article>
+                        <figure>
+                            <img class="responsive-img z-depth-3" src="./images/multicapy.jpg" alt="Un beau capybara qui représente l'association" style="max-height: 400px;">
+                        </figure>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l8 offset-l2 s10 offset-s1">
+                    <article class="card red darken-2 white-text">
+                        <h4 class="center-align">Notre slogan:</h4>
+                        <p class="center-align">La vie est meilleure avec des capybaras. C'est pas si capylotracté.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer red darken-2">
+        <div class="container">
+            <div class="row">
+                <h5 class="center-align">CapyFriends, une association du groupe CapySociety</h5>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2025 CapySociety
+                <a href="#" id="top" class="right"><i class="material-icons">arrow_upward</i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+    </script>    
+</body>
+</html>
