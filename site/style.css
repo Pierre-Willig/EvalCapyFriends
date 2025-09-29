@@ -17,3 +17,12 @@ html {
 #menu:hover {
     transform: scale(1.1);
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.marged2 {
+    margin-left: 2rem;
+}
