@@ -26,3 +26,8 @@ a {
 .marged2 {
     margin-left: 2rem;
 }
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
