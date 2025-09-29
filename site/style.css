@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    transition: all 0.3s ease-in-out;
+}
+
+#top:hover {
+    transform: scale(1.1);
+}
+
+#menu {
+    transition: all 0.3s ease-in-out;
+}
+
+#menu:hover {
+    transform: scale(1.1);
+}
