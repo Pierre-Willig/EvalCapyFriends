@@ -10,14 +10,6 @@ html {
     transform: scale(1.1);
 }
 
-#menu {
-    transition: all 0.3s ease-in-out;
-}
-
-#menu:hover {
-    transform: scale(1.1);
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -30,4 +22,13 @@ a {
 .responsive-image {
     width: 100%;
     height: auto;
+}
+
+.card-title {
+    margin: 0;
+}
+
+#quick-access-format {
+    margin-left: -1rem;
+    padding-bottom: 1rem;
 }
