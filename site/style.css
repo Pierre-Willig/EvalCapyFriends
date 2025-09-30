@@ -31,3 +31,12 @@ a {
     width: 100%;
     height: auto;
 }
+
+.card-title {
+    margin: 0;
+}
+
+#quick-access-format {
+    margin-left: -1rem;
+    padding-bottom: 1rem;
+}
