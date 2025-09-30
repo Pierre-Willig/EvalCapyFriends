@@ -10,14 +10,6 @@ html {
     transform: scale(1.1);
 }
 
-#menu {
-    transition: all 0.3s ease-in-out;
-}
-
-#menu:hover {
-    transform: scale(1.1);
-}
-
 a {
     text-decoration: none;
     color: inherit;
